@@ -1,3 +1,13 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Embed PHP in a .html File</title>
+  </head>
+  <body>
+    <h1><?php echo "Hello World" ?></h1>
+    <div>
+
 <?php
 function get_client_ip_env() {
     $ipaddress = '';
@@ -42,12 +52,7 @@ echo 'IP address (usando get_client_ip_env function) es ' . get_client_ip_env() 
 echo 'IP address (usando get_client_ip_server function) es ' . get_client_ip_server() . '<br>';
 ?>
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Embed PHP in a .html File</title>
-  </head>
-  <body>
-    <h1><?php echo "Hello World" ?></h1>
+        
+    </div>
   </body>
 </html>
